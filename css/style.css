@@ -158,3 +158,8 @@ margin-top: 15px;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     color: gray;
 }
+.changebody{
+    background-size: cover;
+    background-image: url('/home/sandrabest/source/swe-class/html/order-summary-component/images/pngtree-magnetic-compass-with-needle-pointing-change-word-solution-correction-switch-photo-photo-image_32272748.jpg');
+    background-repeat: no-repeat;   
+}
