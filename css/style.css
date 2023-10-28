@@ -142,3 +142,19 @@ margin-top: 15px;
     color:  Bright blue: hsl(245, 75%, 52%);
 
 }
+.cancel{
+    width:380px;
+    height:50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+
+}
+.cancel p{
+    font-size: 15px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: gray;
+}
