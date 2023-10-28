@@ -1,53 +1,9 @@
-body{
-    background-color: hsl(212, 45%, 89%);
-}
-.parent_block{
-    background-color: hsl(0, 0%, 100%);
-    width: 300px;
-    height:600px;
-    margin-left: auto;
-    margin-right: auto;
-    border-radius: 20px;
-    margin-top:10% ;
-  
-}
-    .image-container {
-        width: 280px; /* Set a fixed width for the container */
-        height: 330px; /* Set a fixed height for the container */
-        color: rgb(40, 23, 23);
-        margin-left: auto;
-        margin-right: auto;
-        border-radius: 20px;
-        padding:10px 0px 0px 0px;
-        box-shadow: 50px 9px 20px #1a1a1a0a;
-       
-    }
-    
-    .image-container img {
-        width: 280px; /* Ensure the image doesn't exceed the container's size */
-        height: 350px;
-        border-radius: 10px; /* Apply a circle as the border-radius (for full rounding) */
-        padding: 50px -10px 25px 25px;
-    }
-    .textblock{
-       padding: -20px 0px 0px 20px;
-       font-size: 30px;
-       text-align: center;
-    }
-    .textblock h5{
-        color:hsl(218, 44%, 22%);
-    }
-    .text2{
-        font-size: 18.5px;
-        text-align: center;
-        padding: 0px -10px 0px -10px;
-        color: hsl(212, 45%, 89%);
 
-    }
-    .body2{
-        background-color:hsl(225, 100%, 94%) ;
+   .body2{
+        background-color:hsl(225, 100%, 94%);
         background-image:url('/home/sandrabest/source/swe-class/html/order-summary-component/images/pattern-background-desktop.svg');
-       
+        background-repeat:repeat-x;
+        background-size:contain;
     }
     .parentblock2{
     width: 450px;
@@ -57,9 +13,8 @@ body{
     background-color:white ;
     border-radius: 20px;
     margin-top: 15%;
-
-
 }
+
 .imagediv2{
     width: 400px;
     height: 220px;
@@ -72,6 +27,118 @@ body{
 }
 .h4container{
     width: 450px;
-    height: 100px;
-    background-color:green;
+    height: 60px;
+    background-color:white;
+    padding: 10px 0px 0px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.h4container h4{
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    padding: -50px 10px 30px 0px;
+    color: hsl(223, 47%, 23%);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;  
+}
+.nowcontainer{
+    width: 380px;
+    height: 80px;
+    background-color:white;
+    padding ;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+  
+}
+
+.nowcontainer p{
+    text-align: center;
+    padding: -20px 50px 20px -10px;
+    font-size: 20px;
+    color: hsl(224, 23%, 55%);
+}
+.threepule{
+background-color: hsl(225, 40%, 94%);
+width:380px;
+height:80px;
+border-radius: 10px;/*to made the edge of the container round */
+margin-left: auto;
+margin-right: auto;
+display: flex;
+margin-top: 15px;
+}
+.imageicon_container{ /*continer that i placed the music icon*/
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    width: 80px;
+    height:80px;
+    background-color: hsl(225, 40%, 94%);
+    margin: 0px 0px 0px 25px;
+}
+    
+    
+
+.imageicon_container img{ 
+   width:50px;
+  
+}
+.annual_container{ /*This is for the container where i placed the paragraph with content annual container*/
+    width: 100px;
+    height:80px;
+    background-color:hsl(225, 40%, 94%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.annual_container p{ /*This attribute is just for the text inside the paragraph*/
+    text-align: center;
+    font-size: 14px;
+    font-weight: bold;
+
+}
+
+.annual_container p span{
+    color: gray;
+
+}
+.change{
+    width: 100px;
+    height:80px;
+    background-color: hsl(225, 40%, 94%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 50px;
+
+}
+.change a{
+    font-size: 20px;
+    padding: 10px 10px 10px 40px;
+    
+
+}
+.proceed{
+
+    background-color: hsl(245, 75%, 52%);
+    width:380px;
+    height:50px;
+    border-radius: 10px;/*to made the edge of the container round */
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    box-shadow: 0px 15px 40px 0px hsl(224, 23%, 55%); /* horizontal Vertical Blur Scatter */
+}
+.proceed p{
+    color: white;
+    font-weight: bold;
+    color:  Bright blue: hsl(245, 75%, 52%);
+
 }
